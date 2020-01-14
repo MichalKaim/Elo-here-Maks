@@ -1,0 +1,54 @@
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>Biuro podróży</title>
+		<meta name="author" content="Michał Kaim"/>
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+		<script type="text/javascript" src="scripts.js"></script>
+	
+	</head>
+	<body>
+	
+			
+		<nav>
+		
+			<a href="index.html">Strona Główna</a>
+			<a href="galeria.html">Galeria</a>
+			<a href="oferty.html">Oferty</a>
+			<a href="promocje.html">Promocje</a>
+			<a href="kontakt.html">Kontakt</a>
+			
+		</nav>
+		<div>
+			<div class="oferty">
+				<p id="czas"></p>
+				<h1>Peru i Boliwia</h1>
+				<p>
+Jedna z najważniejszych tras zwiedzania świata. To tu ujrzysz z lotu ptaka linie Nazca, zobaczysz na wyciągnięcie ręki kondory w Kanionie Colca, złożysz wizytę u Indian Plemienia Uru na pływających wyspach jeziora Titicaca, zwiedzisz La Paz, Cusco i słynne wpisane na listę UNESCO – Machu Picchu. Od nadmiaru atrakcji kręci się w głowie…<br><br>
+
+Peru i Boliwia to kraje odznaczające się przepięknym krajobrazem – ogromne góry, wulkany, wysoko położone jeziora, potężne rzeki, pustynie, ocean i szerokie równiny. Panuje w nich wyjątkowo zróżnicowany klimat – od skrajnie suchych obszarów, po zwilgotniałe strefy dżungli. Warto również wspomnieć o bogatej – sięgającej kilkunastu tysiącleci – kulturze, w której szczególnym zainteresowaniem cieszą się tajemnicza cywilizacja Inków oraz niezwykle interesujący mieszkańcy tego kraju.
+					<br><br><br><br></p>
+			
+			<h1>Meksyk i Gwatemala</h1>
+			<p>W czasie tej wycieczki poznamy Królestwo Azteków, niezwykłe tajemnicze budowle, największe piramidy Ameryki, budzące grozę ceremonie i obrzędy w kraju, gdzie słońce „było bogiem”. Z Meksykiem kojarzą nam się najczęściej: sól, tequila i limonka, olbrzymie sombrera i muzyka kapel mariachi, ale my poznamy także historię dramatycznego spotkania dwóch kultur: indiańskiej i hiszpańskiego najeźdźcy, zwiedzimy perły barokowej architektury czasów kolonialnych, najważniejsze zabytki w Mexico City. Nie będą nam też obce paradoksy współczesności, najbardziej widoczne w największej aglomeracji świata. Podczas tej podróży, zachwycać nas będzie rozmaitość niezwykłych krajobrazów oraz współistniejących tradycji, gościnność i uprzejmość mieszkańców połączone z atmosferą nieprzerwanej fiesty, w najbardziej sławnym kurorcie Meksyku, Acapulco, wśród porośniętych palmami złocistych plaż, skąpanych w tropikalnym słońcu dziewiczych lagun, przy akompaniamencie szumiących sennie fal oceanu...<br><br>
+
+Ta wycieczka zachwyci nas pięknem przyrody i zabytków południa Mexico, poznamy w czasie realizacji programu wspaniałe kolonialne miasta, niemające konkurencji w żadnym innym kraju na świecie. Zwiedzimy zabytkowe wpisane na Listę Unesco, ufortyfikowane Campeche. Do niezapomnianych chwil zaliczyć będziemy mogli pobyt w Palenque, zagubionym w dżungli mieście Majów, zachwycającym bogactwem kultury tego narodu. Coba zachwyci nas podobieństwem do Tikalu, a w Tulum oczaruje nas architektura zamków przy dziewiczej plaży. Ta wycieczka pozwoli Ci poznać bogactwo flory i fauny Mexico, będziemy spacerować po puszczy słuchając jej śpiewu. Dopełnieniem udanych i niezapomnianych wakacji będzie pobyt i wypoczynek na dziewiczych plażach Riviera Maya oraz wizyta w zagubionej w dżungli, wiosce Majów.</p>
+
+			</div>
+			<div class="zdjecia">
+				<button onclick="lewo()">&#171;</button>
+				<img id="zdj" src="img/1.jpg" alt="Zdjęcie"/>
+				<button onclick="zdj_i_tekst()">&#187;</button>
+				<p id="opi">Majowie – grupa ludów indiańskich mówiących językami z rodziny maja, zamieszkujących południowo-wschodni Meksyk (półwysep Jukatan i stan Chiapas), Gwatemalę, Belize i zach. Honduras; w węższym znaczeniu nazwa „Majowie” odnosi się wyłącznie do grupy zamieszkującej półwysep Jukatan (tzw. Majowie jukatańscy).</p>
+				<script>
+
+					var timer = setInterval("zdj_i_tekst()", 6000);
+
+				</script>
+
+			</div>
+		</div>
+		<footer></footer>
+		<script>displayDate()</script>		
+	</body>
+</html>
