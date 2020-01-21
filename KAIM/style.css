@@ -31,10 +31,28 @@ nav a{
 	color: white;
 }
 
+.odlicznie{
+	
+	width: 55vw;
+	position: absolute;
+	left: 43vw;
+	top: 7vw;
+	color: white;
+	font-size: 0.8em;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: stretch;
+	float: left;
+}
+
+.odlicznie:hover{
+	background-color: black;
+}
+
 .zdjecia{
 	background-color: rgb(0, 0, 0, 0.7);
 	width: 55vw;
-
 	position: absolute;
 	left: 43vw;
 	top: 7vw;
@@ -71,6 +89,48 @@ nav a{
 	flex-basis: 70%;
 }
 
+.Fixedzdjecia{
+	background-color: rgb(0, 0, 0, 0.7);
+	width: 55vw;
+	position: absolute;
+	margin: auto;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	color: white;
+	font-size: 0.8em;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: stretch;
+	float: left;
+}
+
+.Fixedzdjecia:hover{
+	background-color: black;
+}
+
+.Fixedzdjecia button{
+	flex-basis: 5%;
+	background: none;
+	color: white;
+	border: none;
+	
+}
+
+.Fixedzdjecia p{
+	margin: 3vw;
+	flex-basis: 100%;
+}
+
+.Fixedzdjecia img{
+	margin-top: 2vw;
+	width: 35vw;
+	height: 25vw;
+	flex-basis: 70%;
+}
+
 .oferty{
 	color: white;
 	background-color: rgb(0, 0, 0, 0.7);
@@ -85,5 +145,54 @@ nav a{
 }
 
 .oferty:hover{
+	background-color: black;
+}
+
+.oferty img{
+	margin-left: 40%;
+}
+
+
+.kont{
+	background-color: rgb(0, 0, 0, 0.7);
+	width: 55vw;
+	height: 80%;
+	position: absolute;
+	margin: auto;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	color: white;
+	font-size: 0.8em;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: stretch;
+	float: left;
+}
+
+.kont:hover{
+	background-color: black;
+}
+
+
+.kont p{
+	margin: 3vw;
+	flex-basis: 100%;
+}
+
+.kont form{
+	margin: auto auto;
+	
+}
+
+footer{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	color: white;
+	text-align: center;
 	background-color: black;
 }

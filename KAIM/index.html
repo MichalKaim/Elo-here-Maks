@@ -5,6 +5,7 @@
 		<meta name="author" content="Michał Kaim"/>
 		<link rel="stylesheet" type="text/css" href="style.css"/>
 		<script type="text/javascript" src="scripts.js"></script>
+		<link rel="shortcut icon" href="img/favicon_aztec.png" />
 	
 	</head>
 	<body>
@@ -13,7 +14,6 @@
 		<nav>
 		
 			<a href="index.html">Strona Główna</a>
-			<a href="galeria.html">Galeria</a>
 			<a href="oferty.html">Oferty</a>
 			<a href="promocje.html">Promocje</a>
 			<a href="kontakt.html">Kontakt</a>
@@ -21,7 +21,7 @@
 		</nav>
 		<div>
 			<div class="oferty">
-				<p id="czas"></p>
+				<img src="img/favicon_aztec.png" alt="logo">
 				<h1>Peru i Boliwia</h1>
 				<p>
 Jedna z najważniejszych tras zwiedzania świata. To tu ujrzysz z lotu ptaka linie Nazca, zobaczysz na wyciągnięcie ręki kondory w Kanionie Colca, złożysz wizytę u Indian Plemienia Uru na pływających wyspach jeziora Titicaca, zwiedzisz La Paz, Cusco i słynne wpisane na listę UNESCO – Machu Picchu. Od nadmiaru atrakcji kręci się w głowie…<br><br>
@@ -30,9 +30,7 @@ Peru i Boliwia to kraje odznaczające się przepięknym krajobrazem – ogromne 
 					<br><br><br><br></p>
 			
 			<h1>Meksyk i Gwatemala</h1>
-			<p>W czasie tej wycieczki poznamy Królestwo Azteków, niezwykłe tajemnicze budowle, największe piramidy Ameryki, budzące grozę ceremonie i obrzędy w kraju, gdzie słońce „było bogiem”. Z Meksykiem kojarzą nam się najczęściej: sól, tequila i limonka, olbrzymie sombrera i muzyka kapel mariachi, ale my poznamy także historię dramatycznego spotkania dwóch kultur: indiańskiej i hiszpańskiego najeźdźcy, zwiedzimy perły barokowej architektury czasów kolonialnych, najważniejsze zabytki w Mexico City. Nie będą nam też obce paradoksy współczesności, najbardziej widoczne w największej aglomeracji świata. Podczas tej podróży, zachwycać nas będzie rozmaitość niezwykłych krajobrazów oraz współistniejących tradycji, gościnność i uprzejmość mieszkańców połączone z atmosferą nieprzerwanej fiesty, w najbardziej sławnym kurorcie Meksyku, Acapulco, wśród porośniętych palmami złocistych plaż, skąpanych w tropikalnym słońcu dziewiczych lagun, przy akompaniamencie szumiących sennie fal oceanu...<br><br>
-
-Ta wycieczka zachwyci nas pięknem przyrody i zabytków południa Mexico, poznamy w czasie realizacji programu wspaniałe kolonialne miasta, niemające konkurencji w żadnym innym kraju na świecie. Zwiedzimy zabytkowe wpisane na Listę Unesco, ufortyfikowane Campeche. Do niezapomnianych chwil zaliczyć będziemy mogli pobyt w Palenque, zagubionym w dżungli mieście Majów, zachwycającym bogactwem kultury tego narodu. Coba zachwyci nas podobieństwem do Tikalu, a w Tulum oczaruje nas architektura zamków przy dziewiczej plaży. Ta wycieczka pozwoli Ci poznać bogactwo flory i fauny Mexico, będziemy spacerować po puszczy słuchając jej śpiewu. Dopełnieniem udanych i niezapomnianych wakacji będzie pobyt i wypoczynek na dziewiczych plażach Riviera Maya oraz wizyta w zagubionej w dżungli, wiosce Majów.</p>
+			<p>Oficjalnie Meksykańskie Stany Zjednoczone (hiszp. Estados Unidos Mexicanos) – państwo w Ameryce Północnej. Sąsiaduje ze Stanami Zjednoczonymi (na północy), z Oceanem Spokojnym (na zachodzie i południu), Zatoką Meksykańską i Morzem Karaibskim (na wschodzie) oraz z Gwatemalą i Belize (na południu i południowym wschodzie). Gwatemalczycy to stosunkowo młodzi ludzie (40% ludności ma poniżej lat 14). Potomkowie Europejczyków oraz Latynosi stanowią tu tylko 59,4%, reszta to natomiast w większości Majowie. Większość mieszkańców to katolicy, protestanci i inni chrześcijanie. Spora grupa ludzi wyznaje wierzenia Majów. </p>
 
 			</div>
 			<div class="zdjecia">
@@ -43,12 +41,23 @@ Ta wycieczka zachwyci nas pięknem przyrody i zabytków południa Mexico, poznam
 				<script>
 
 					var timer = setInterval("zdj_i_tekst()", 6000);
+					var timer = setInterval("displayDate()", 1000);
 
 				</script>
 
 			</div>
+			<div class="odlicznie">
+					<p id="czas"></p>
+					<p id="doWakacji"></p>
+
+			</div>
 		</div>
-		<footer></footer>
+		<footer> <div class="pas">
+            </div>
+            <div class="stopka">
+                <p>Copyright &copy;Michał Kaim</p>
+                <p>ZSE nr 9 w Krakowie</p>
+            </div></footer>
 		<script>displayDate()</script>		
 	</body>
 </html>

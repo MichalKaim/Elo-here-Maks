@@ -1,0 +1,49 @@
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>Biuro podróży</title>
+		<meta name="author" content="Michał Kaim"/>
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+		<script type="text/javascript" src="scripts.js"></script>
+		<link rel="shortcut icon" href="img/favicon_aztec.png" />
+	
+	</head>
+	<body>
+   
+	
+			
+		<nav>
+		
+			<a href="index.html">Strona Główna</a>
+			<a href="oferty.html">Oferty</a>
+			<a href="promocje.html">Promocje</a>
+			<a href="kontakt.html">Kontakt</a>
+			
+		</nav>
+		<div>
+
+			<div class="Fixedzdjecia">
+				<button onclick="flewo()">&#171;</button>
+        <img id="zdj" src="img/1o.jpg" alt="Zdjęcie"/>
+        <button onclick="fzdj_i_tekst()">&#187;</button>
+
+				<p id="ofer">Położone na półwyspie Jukatan Cancun dla większości turystów to luksusowy kurort i miejsce imprez do białego rana. Wybierzcie się do Podwodnego Muzeum i zanurkujcie w ciepłych wodach Morza Karaibskiego, by obejrzeć setki rzeźb ukrytych między zjawiskową rafą koralową. Pójdźcie na spacer do niewielkiego stanowiska archeologicznego El Rey, by odkrywać piramidy zbudowane przez Majów. A wieczorem, zjedzcie tradycyjne meksykańskie danie w jednej z setek klimatycznych restauracji.</p>
+        <h1 style="margin-left: 20px;" id="cena">Cena: 10000 zł</h1>
+			</div>
+		</div>
+		<footer></footer>
+    <script>
+      displayDate();
+      document.getElementById("cena").innerHTML = "Cena: " + ceny[ofer-1] + " zł";
+    </script>		
+  </body>
+  <footer>
+      <div class="pas">
+        </div>
+        <div class="stopka">
+            <p>Copyright &copy;Michał Kaim</p>
+
+            <p>ZSE nr 9 w Krakowie</p>
+        </div>
+  </footer>
+</html>
